@@ -1,0 +1,31 @@
+body {
+    background-color: #D89CF6;
+}
+
+.flex-container {
+    height: 200px;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.baseline div:nth-child(odd){
+    font-size: 40px;
+}
